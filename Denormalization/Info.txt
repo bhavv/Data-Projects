@@ -1,1 +1,5 @@
+This file consists of data denormalization codes.
 
+Dataset used in the project: https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+
+Firstly, we load the given CSV files so as to extract the nested data to columnar values. This can be done just by running Extraction code script with the given kaggle data set. Later we clean the extracted data. Respective files are in this repo and can be found in this repo. The cleaned data is merged into a single table and then pushed to mongo cluster using python. 
